@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="shortcut icon" href="./images/logo2.png" />
+    <!-- Calling bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Calling Fontawesome Link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Calling Link of css of website -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="top-navbar">
+      <div class="top-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="other-links">
+        <a href="login.html"><button id="btn-login">Login</button></a>
+        <a href="signup.html"><button id="btn-signup">Sign up</button></a>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+    <div class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="" width="180px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fas fa-bars" style="color: white"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clothe.html">Clothe</a>
+            </li>
+            <li class="nav-item dropdown"></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              id="search-btn"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="content">
+        <h3>Biggest Clothe Sale <br /><span>Up To 50% off</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+          libero?
+        </p>
+        <button id="shopnow">Shop Now</button>
+      </div>
+
+      <div class="img">
+        <img src="./images/b2.png" alt="" />
+      </div>
+    </section>
+
+    <div class="container mt-5 pt-5" id="top-cards">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-6">
+          <div class="card" style="background-color: #a9a9a926">
+            <img src="./images/topcard1.png" alt="" />
+
+            <div class="card-img-overlay">
+              <h5 class="card-title">Smart Watch</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                reprehenderit!
+              </p>
+              <p><strong> $200</strong> <strike>$250</strike></p>
+              <button class="fw-bold">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-6">
+          <div class="card" style="background-color: #a9a9a926">
+            <img src="./images/topcard2.png" alt="" />
+
+            <div class="card-img-overlay">
+              <h5 class="card-title">Nike Shoes</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                reprehenderit!
+              </p>
+              <p><strong> $150</strong> <strike>$200</strike></p>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-6">
+          <div class="card" style="background-color: #a9a9a926">
+            <img src="./images/topcard3.png" alt="" />
+
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bag</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                reprehenderit!
+              </p>
+              <p><strong> $15</strong> <strike>$250</strike></p>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home Section -->
+
+    <!-- OFFER Section -->
+
+    <div class="offer">
+      <div class="sale text-center align-items-center">
+        <h4>Get Up to 50% Off</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+          veniam!
+        </p>
+        <button>Shop Now</button>
+      </div>
+    </div>
+
+    <!-- Offer Section -->
+
+    <!-- ClotheProduct Section -->
+
+    <div class="product">
+      <div class="container mt-5">
+        <h3 style="color: #1c1c50" class="text-center letter-spacing-2">
+          PRODUCT
+        </h3>
+
+        <div class="row">
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p13.png" alt="" />
+
+              <div class="card-body">
+                <h4>Men T-Shirt</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$32.60 <strike>50$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p14.png" alt="" />
+
+              <div class="card-body">
+                <h4>Purpel Heel</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$56.90 <strike>90$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p15.png" alt="" />
+
+              <div class="card-body">
+                <h4>Men Shoes</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$152.60 <strike>180$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p16.png" alt="" />
+
+              <div class="card-body">
+                <h4>Men Jacket</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$60.60 <strike>70.80$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p17.png" alt="" />
+
+              <div class="card-body">
+                <h4>Blue T-Shirt</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$8.60 <strike>15$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p18.png" alt="" />
+
+              <div class="card-body">
+                <h4>Girls Sandal</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$76.40 <strike>90$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p19.png" alt="" />
+
+              <div class="card-body">
+                <h4>Men Jacket</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$15.60 <strike>30$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <div class="card">
+              <img src="images/p20.png" alt="" />
+
+              <div class="card-body">
+                <h4>Men T-Shirt</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="stars">
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star checked"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <h5 class="">
+                  <span class="">$30.60 <strike>50.80$</strike></span>
+                  <span> <i class="fa-solid fa-cart-shopping"></i></span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="clothe.html" id="btn-cloth">View More</a>
+      </div>
+    </div>
+
+    <!-- ClotheProduct Section End -->
+
+    <!-- Service Section -->
+
+    <div class="services">
+      <div class="container">
+        <hr />
+        <h4>PRODUCT.</h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+        commodi, fuga ab, alias veniam similique et rem sint provident
+        recusandae tempora saepe. Veniam, eum culpa. Quasi minima laborum, ullam
+        provident quo omnis! Est impedit facere dolor nisi, maiores minus non
+        consequatur officia vel culpa minima! Vero culpa sed nostrum quae
+        reprehenderit quisquam iure dignissimos dicta fugit ipsam sunt, esse nam
+        nulla natus sint iste odio itaque fugiat fuga nobis modi labore? Ipsum
+        mollitia ea vel ad ullam sint inventore neque impedit corrupti iure
+        beatae, labore vitae perspiciatis, excepturi quod repellendus cumque
+        nobis esse rem dolor corporis delectus enim. Provident, sit?
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4 py-3">
+            <i class="fa-solid fa-cart-shopping check"></i>
+            <h5>Free Shipping</h5>
+            <p>On order over $100</p>
+          </div>
+
+          <div class="col-md-4 py-3">
+            <i class="fa-solid fa-thumbs-up check"></i>
+            <h5>Big Choice</h5>
+            <p>Of product</p>
+          </div>
+
+          <div class="col-md-4 py-3">
+            <i class="fa-solid fa-truck check"></i>
+            <h5>Fast Delivery</h5>
+            <p>Worldwide</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section End -->
+
+    <!-- Footer Section Start-->
+    <div class="AboutUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 py-3">
+            <h3>Fashion</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              veniam.
+            </p>
+            <p>Lebanon</p>
+            <p>Pakistan</p>
+            <p>Italy</p>
+
+            <p><i class="fa-solid fa-phone"></i> Phone:+00000000000</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: example@gmail.com</p>
+          </div>
+          <div class="col-md-3 py-3">
+            <h5>Usefull Links</h5>
+            <p><a href="home.html">Home</a></p>
+            <p><a href="About.html">About</a></p>
+            <p><a href="contact">Contact</a></p>
+            <p><a href="sevices.html">Services</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+          </div>
+          <div class="col-md-3 py-3">
+            <h5>Our Services</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              aperiam!
+            </p>
+
+            <p><a href="#">Smartphone</a></p>
+            <p><a href="#">Smartwatch</a></p>
+            <p><a href="#">Airpod</a></p>
+          </div>
+          <div class="col-md-3 py-3">
+            <h5>Our Social Network</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non in
+              al
+            </p>
+            <i class="fa-brands fa-twitter ch"></i>
+            <i class="fa-brands fa-facebook ch"></i>
+            <i class="fa-brands fa-google-plus-g ch"></i>
+            <i class="fa-brands fa-instagram ch"></i>
+            <i class="fa-brands fa-linkedin-in ch"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <footer>
+        &copy;CopyRight Fashion All Rights are Reserved | Amar Lahlouh
+      </footer>
+    </div>
+    <!-- Footer Section End -->
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>

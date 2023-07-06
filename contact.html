@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="shortcut icon" href="./images/logo2.png" />
+    <!-- Calling bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Calling Fontawesome Link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Calling Link of css of website -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="top-navbar">
+      <div class="top-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="other-links">
+        <a href="login.html"><button id="btn-login">Login</button></a>
+        <a href="signup.html"><button id="btn-signup">Sign up</button></a>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+    <div class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="" width="180px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fas fa-bars" style="color: white"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clothe.html">Clothe</a>
+            </li>
+            <li class="nav-item dropdown"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              id="search-btn"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div class="contact">
+      <div class="container">
+        <h3>CONTACT US</h3>
+        <div class="row" style="margin-top: 20px">
+          <div class="col-md-4 py-3 cont">
+            <i class="fa-solid fa-phone"></i><span>Phone</span>
+            <p>+000000000000000000</p>
+          </div>
+          <div class="col-md-4 py-3 cont">
+            <i class="fa-solid fa-envelope"></i> <span>EMAIL</span>
+            <p>example@gmail.com</p>
+          </div>
+
+          <div class="col-md-4 py-3 cont">
+            <i class="fa-solid fa-location-dot"></i> <span>ADDRESS</span>
+            <p>karachi Sinfh Pakistan</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 py-3 cont1">
+            <input type="text" placeholder="Name" class="form-control" />
+          </div>
+          <div class="col-md-4 py-3 cont1">
+            <input type="email" placeholder="Email" class="form-control" />
+          </div>
+
+          <div class="col-md-4 py-3 cont1">
+            <input type="text" placeholder="Phone" class="form-control" />
+          </div>
+          <div class="form-group">
+            <textarea
+              name=""
+              class="form-control"
+              id="#message"
+              cols="50"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="messagebtn" class="text-center">
+            <button>Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
